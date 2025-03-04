@@ -6,11 +6,11 @@ const ListingComponent = ({ item, location }) => {
   return (
     <div className="my-10">
       <h1>{location}</h1>
-      <div className="grid lg:grid-cols-3 gap-10 my-5">
+      <div className="grid lg:grid-cols-3 gap-10 my-5 ">
         {item.map((item, index) => (
-          <div key={index} className="">
+          <div key={index} className=" mx-auto w-full">
             <Icon
-              additionalStyle={"rounded-xl w-full h-[326px]"}
+              additionalStyle={"rounded-xl w-full  h-[326px]"}
               url={item.image}
             />
             <div>

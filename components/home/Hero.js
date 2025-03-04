@@ -13,12 +13,13 @@ const Hero = () => {
           Find Your Dream Home Today!
         </p>
 
-        <div className="flex mb-10 lg:mb-0">
-          <ButtonComponent text="Find Property" additionalStyle="mr-5" />
+        <div className="flex mb-10 lg:mb-0 gap-3">
+          <ButtonComponent text="Find Property" additionalStyle="w-[190px] " />
           <ButtonComponent
+            additionalStyle="w-[190px] "
             trans
             text="List Property"
-            icon="/home/arrow-up.png"
+            // icon="/home/arrow-up.png"
           />
         </div>
       </div>
