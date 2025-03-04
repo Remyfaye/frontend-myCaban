@@ -16,9 +16,9 @@ const page = () => {
     <div className="pt-[70px]">
       <h2>Property Details</h2>
 
-      <div className="mb-10 mt-5 flex ">
-        <Icon additionalStyle={"rounded-xl w-[90%] "} url={item.image} />
-        <div className="bg-[#EBFEF38F] w-[35%] py-10 px-5 rounded-xl">
+      <div className="mb-10 mt-5 lg:flex ">
+        <Icon additionalStyle={"rounded-xl lg:w-[90%] "} url={item.image} />
+        <div className="bg-[#EBFEF38F] lg:w-[35%] py-10 px-5 rounded-xl mt-10">
           <h3 className="font-bold">{item.name}</h3>
 
           <div className="my-3">
